@@ -3,6 +3,10 @@ int fictorial(int number);
 int main(){
 
 int number;
+
+printf("\nEnter number : ");
+scanf("%d",&number);
+
 printf("\n\nFictorial : %d",fictorial(number));
 
 
@@ -12,8 +16,7 @@ printf("\n\nFictorial : %d",fictorial(number));
 int fictorial(int number){
 
 
-printf("\nEnter number : ");
-scanf("%d",&number);
+
 
 int fact =1;
 

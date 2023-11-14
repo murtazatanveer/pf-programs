@@ -1,39 +1,40 @@
 #include<stdio.h>
 
- void swap(int *a,int *b){
+void swap ();
+int main(){
+    int a,b;
+    printf("Enter the value of a and b : ");
+    scanf("%d %d",&a,&b);
 
-int temp;
+    printf("\n\nBefore Swapping\n\n a : %d and b : %d",a,b);
+
+    swap(a,b);
 
 
-
-temp=a;
-a=b;
-b=temp;
-
-return;
-
+    return 0;
 }
 
-int main(int *a,int *b){
 
 
-printf("\nEnter value of a : ");
-scanf("%d",&a);
+void swap(int a, int b){
 
-printf("\nEnter value of b : ");
-scanf("%d",&b);
+    int temp;
+
+  
+    printf("\n\nAfter Swapping\n\n");
+
+    temp=a;
+    a=b;
+    b=temp;
+
+   printf("a : %d and b : %d",a,b);
 
 
-
-swap(*a,*b);
-
-printf("\n\n______AFTER SWAPPING______");
-
-printf("\nValue of a : ",*a);
-
-printf("\nValue of b : ",*b);
-
+   
 }
+
+
+
 
 
 

@@ -3,8 +3,8 @@
 int sum();
 int main(){
 
-int a,b;
-printf("\n\nsum : %d",sum(a,b));
+int x,y;
+printf("\n\nsum : %d",sum( x,y));
 
 }
 

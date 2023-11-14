@@ -3,9 +3,8 @@ int is_perfect_num(int num);
 
 int main(){
 
-int num;
-printf("\nReturn Value : %d",is_perfect_num(num));
-
+int hb;
+printf("\nReturn Value : %d",is_perfect_num(hb));
 
 }
 

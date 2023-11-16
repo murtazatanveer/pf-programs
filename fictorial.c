@@ -9,14 +9,9 @@ scanf("%d",&number);
 
 printf("\n\nFictorial : %d",fictorial(number));
 
-
 }
 
-
 int fictorial(int number){
-
-
-
 
 int fact =1;
 

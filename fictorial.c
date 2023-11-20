@@ -1,26 +1,12 @@
 #include<stdio.h>
-int fictorial(int number);
+#include"header file.h"
+
 int main(){
 
-int number;
+int num;
 
-printf("\nEnter number : ");
-scanf("%d",&number);
+    printf("\nEnter number you want fictorial : ");
+    scanf("%d",&num);
 
-printf("\n\nFictorial : %d",fictorial(number));
-
-}
-
-int fictorial(int number){
-
-int fact =1;
-
-for(int i=1;i<=number;i++){
-
-fact=fact*i;
-
-
-}
-return fact;
-
+    printf("\nFictorial of %d is : %d",num,factorial(num));
 }
